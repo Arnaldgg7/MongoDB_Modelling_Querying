@@ -5,14 +5,22 @@ Using the MongoDB Java API, we explore in this project different modelling alter
 ![imagen](https://user-images.githubusercontent.com/69221572/120863897-aab44900-c58b-11eb-954e-a0ee24fb5379.png)
 
 The queries that are implemented in this project are always these 4:
+
 **Q1:** For each person, retrieve their full name and their company’s name.
+
 **Q2:** For each company, retrieve its name and the number of employees.
+
 **Q3:** For each person born before 1988, update their age to “30”.
+
 **Q4:** For each company, update its name to include the word “Company”.
 
+
 These 4 queries will be checked in the following 3 document structures:
+
 **M1:** Two types of documents, one for each class and referenced fields.
+
 **M2:** One document for “Person” with “Company” as embedded document.
+
 **M3:** One document for “Company” with “Person” as embedded documents.
 
 
